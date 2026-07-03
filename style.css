@@ -219,14 +219,6 @@ nav ul li:hover {
     background:#0b1120;
 }
 
-.about-image img{
-    width:100%;
-    max-width:340px;
-    border-radius:30px;
-    object-fit:cover;
-    box-shadow:0 0 35px rgba(56,189,248,.55);
-}
-
 .about-content{
     background:linear-gradient(145deg, rgba(56,189,248,.12), rgba(255,255,255,.04));
     border:1px solid rgba(56,189,248,.35);
