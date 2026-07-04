@@ -787,3 +787,37 @@ body.light-mode header{
 body.light-mode nav{
     background: transparent !important;
 }
+.mobile-brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.mobile-brand img{
+    display:none;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid #38bdf8;
+}
+
+@media (max-width:768px){
+    .mobile-brand img{
+        display:block;
+    }
+
+    nav{
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    nav ul{
+        display:none;
+    }
+
+    .logo{
+        font-size:22px;
+    }
+}
