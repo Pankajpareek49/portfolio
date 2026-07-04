@@ -110,3 +110,22 @@ themeBtn.addEventListener("click", () => {
         localStorage.setItem("theme", "dark");
     }
 });
+const menuBtn = document.getElementById("menu-btn");
+const navMenu = document.getElementById("nav-menu");
+
+menuBtn.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+
+    if(navMenu.classList.contains("active")){
+        menuBtn.innerHTML = "✖";
+    }else{
+        menuBtn.innerHTML = "☰";
+    }
+});
+
+document.querySelectorAll("#nav-menu a").forEach(link => {
+    link.addEventListener("click", () => {
+        navMenu.classList.remove("active");
+        menuBtn.innerHTML = "☰";
+    });
+});
