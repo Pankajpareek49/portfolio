@@ -988,3 +988,16 @@ nav{
         white-space:nowrap;
     }
 }
+#theme-toggle{
+    width:auto;
+    height:auto;
+    padding:8px 16px;
+    border-radius:25px;
+    font-size:16px;
+}
+
+.theme-menu-btn{
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
