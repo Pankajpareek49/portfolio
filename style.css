@@ -859,3 +859,14 @@ body.light-mode nav{
         background:#ffffff;
     }
 }
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.nav-buttons{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
