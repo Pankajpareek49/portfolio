@@ -870,3 +870,24 @@ nav{
     align-items:center;
     gap:10px;
 }
+.theme-item{
+    list-style: none;
+}
+
+.theme-item button{
+    width: 100%;
+    background: #38bdf8;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+@media (max-width:768px){
+
+    .hero-text h1{
+        font-size:32px;
+        white-space: nowrap;
+    }
+
+}
