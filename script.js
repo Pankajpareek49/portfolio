@@ -128,3 +128,14 @@ if (menuBtn && navMenu) {
         });
     });
 }
+document.addEventListener("DOMContentLoaded", () => {
+    const menuBtn = document.getElementById("menu-btn");
+    const navMenu = document.getElementById("nav-menu");
+
+    if (menuBtn && navMenu) {
+        menuBtn.onclick = () => {
+            navMenu.classList.toggle("active");
+            menuBtn.textContent = navMenu.classList.contains("active") ? "✖" : "☰";
+        };
+    }
+});
