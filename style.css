@@ -891,3 +891,100 @@ nav{
     }
 
 }
+@media (max-width:768px){
+
+    header, nav{
+        z-index:99999 !important;
+    }
+
+    nav{
+        position:fixed !important;
+        top:0;
+        left:0;
+        width:100%;
+        flex-direction:row !important;
+        justify-content:space-between !important;
+        align-items:center !important;
+        padding:15px 5% !important;
+        background:rgba(11,17,32,.95) !important;
+    }
+
+    body.light-mode nav{
+        background:#ffffff !important;
+    }
+
+    .mobile-brand img{
+        display:block;
+    }
+
+    .logo{
+        font-size:20px !important;
+    }
+
+    .menu-btn{
+        display:block !important;
+        z-index:100000;
+    }
+
+    #nav-menu{
+        position:absolute !important;
+        top:70px;
+        right:5%;
+        width:220px;
+        background:#081b29 !important;
+        border:1px solid #38bdf8;
+        border-radius:15px;
+        padding:18px;
+        display:none !important;
+        flex-direction:column !important;
+        gap:14px;
+        text-align:center;
+        z-index:100000 !important;
+    }
+
+    #nav-menu.active{
+        display:flex !important;
+    }
+
+    #nav-menu li{
+        list-style:none;
+        width:100%;
+    }
+
+    #nav-menu a,
+    #nav-menu button{
+        width:100%;
+        display:block;
+        padding:10px;
+        border-radius:8px;
+        font-size:15px;
+        text-align:center;
+    }
+
+    .theme-menu-btn{
+        height:auto !important;
+        border-radius:8px !important;
+        background:#38bdf8 !important;
+        color:#fff !important;
+        font-size:15px !important;
+        transform:none !important;
+    }
+
+    .theme-menu-btn:hover{
+        transform:none !important;
+    }
+
+    body.light-mode #nav-menu{
+        background:#ffffff !important;
+        box-shadow:0 8px 25px rgba(0,0,0,.15);
+    }
+
+    body.light-mode #nav-menu a{
+        color:#111827 !important;
+    }
+
+    .hero-text h1{
+        font-size:28px !important;
+        white-space:nowrap;
+    }
+}
