@@ -30,7 +30,7 @@ You can view the website by opening the `index.html` file in your browser.
 
 ## 📬 Contact
 
-* 📧 Email: [your-email@example.com](mailto:pankajpareek066@gmail.com)
+* 📧 Email: pankajpareek066@gmail.com
 * 💼 LinkedIn: [www.linkedin.com/in/pankaj-pareek-2414s000]
 * 💻 GitHub: https://github.com/Pankajpareek49
 
